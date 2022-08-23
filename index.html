@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voting Information</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div>
+    <h1>Oregon's Voter Information</h1>
+      <form>
+        <label for="age">Enter Your Age Here:</label>
+        <input id="age" type="number">
+        <button type="submit">Go Vote!</button>
+      </form>
+
+    <div id="voterInfo" class="hidden">
+      <h1 id="voterReg">Voter Registration</h1>
+      <h2>Voter information</h2>
+        <p>Congrats to wanting to make a difference in your community. Below are some links for information about Voter registration.</p>
+      <ul>
+        <li><a href="https://www.vote411.org/oregon">Oregon - Vote 441</a></li>
+        <li><a href="https://sos.oregon.gov/">Oregon Secretary of State</a></li>
+        <li><a href="https://sos.oregon.gov/voting/pages/registration.aspx?lang=en">Click here to Register!</a></li>
+      </ul>
+    </div>
+
+    <div id="under-18" class="hidden">
+      <h1>Looks like you are not old enought to vote!</h1>
+      <p>Thank you for being so eager to have an impact! Follow these links to learn more about the voting process and age requirements.</p>
+      <ul>
+        <li><a href="https://constitutioncenter.org/interactive-constitution/amendment/amendment-xxvi">US Age requirements</a></li>
+        <li><a href="https://sos.oregon.gov/elections/Pages/voteinor.aspx">Here are some voting FAQs.</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
